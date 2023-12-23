@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+    height: 301px;
+    width: 301px;
+    gap: 2px;
+    margin: auto;
+}
+.child{
+    border-radius: 10%;
+    height:99px;
+    width: 99px;
+
+
+}
+*{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #EAD196;
+    
+}
+.child{
+    background-color: #F3EDC8;
+    color:#7D0A0A;
+    font-size: 40px;
+    padding-top: 15px;
+    
+}
+#result{
+    font-size: 40px;
+    color: #7D0A0A;
+}
+#reset{
+    border: none;
+    color: white;
+    background-color: #7D0A0A;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10%;
+}
